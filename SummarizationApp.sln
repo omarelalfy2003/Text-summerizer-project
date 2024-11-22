@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummarizationApp", "SummarizationApp\SummarizationApp.csproj", "{680A0F66-B49D-46FC-BB66-65641EF82280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{436C5CB8-6D1E-4FE0-A7F5-2FE68891E9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CF2C6430-8263-4D09-8DFA-CC825E00562C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{680A0F66-B49D-46FC-BB66-65641EF82280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680A0F66-B49D-46FC-BB66-65641EF82280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680A0F66-B49D-46FC-BB66-65641EF82280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680A0F66-B49D-46FC-BB66-65641EF82280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436C5CB8-6D1E-4FE0-A7F5-2FE68891E9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436C5CB8-6D1E-4FE0-A7F5-2FE68891E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436C5CB8-6D1E-4FE0-A7F5-2FE68891E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436C5CB8-6D1E-4FE0-A7F5-2FE68891E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2C6430-8263-4D09-8DFA-CC825E00562C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2C6430-8263-4D09-8DFA-CC825E00562C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2C6430-8263-4D09-8DFA-CC825E00562C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2C6430-8263-4D09-8DFA-CC825E00562C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {168C3F9D-3D35-4845-A1FC-2537E6C912D8}
+	EndGlobalSection
+EndGlobal

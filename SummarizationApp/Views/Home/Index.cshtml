@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+ *@
+<div class="form-container">
+    <form enctype="multipart/form-data">
+        <label for="summ">Please Enter your File to Summarization</label>
+        <input type="file" id="summ" name="summ">
+
+        <label for="summr">Please Enter your Text to Summarization</label>
+        <input type="text" id="summr" name="summr">
+
+        <button type="submit">Summarize</button>
+    </form>
+</div>
